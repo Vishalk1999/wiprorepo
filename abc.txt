@@ -1,0 +1,23 @@
+[4:47 PM] deepikkaag (Unverified)
+main branch of LR is in sync with main branch of RR. But the deep_branch and priya_branch is not in sync with RR.
+ 
+git checkout deep_branch
+
+cat File1.java
+
+git merge main
+
+cat File1.java
+ 
+ 
+git checkout priya_branch
+
+git ls-files
+
+cat File1.java
+
+git merge main
+
+cat File1.java
+ 
+All the branch have the same content as it is in RR.
